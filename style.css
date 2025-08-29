@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.s1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vh;
+}
+.menuh{
+    display: flex;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.home{
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+
+}
+
+.home:hover{
+    background-color: orangered;
+    color: white;
+    height: 14vh;
+    width: 14vh;
+}
+.b1{
+    color:white;
+    background-color: orangered;
+    border-color: orangered;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.s2{
+    text-align: center;
+    background-image: url("02.08.2024_-_Cerimônia_de_assinatura_da_Medida_Provisória_que_institui_o_Programa_Mover\,_dos_Projetos_de_Lei_nº_858_2024_e_nº_2308_2023_\(53897924860\).jpg");
+    background-size: contain;
+    width: 100%vh;
+    height: 100vh;
+}
+
+.t1{
+    color: orangered;
+    font-weight: 900;
+    padding-top: 150px;
+}
+
+.t2{
+    color: white;
+    font-size: 70px;
+
+}
+
+.in1{
+    width: 300px ;
+    height: 50px;   
+    margin: 0;
+    padding: 0;
+    
+}
+
+.b2{
+     background-color: orangered;
+    border-color: orangered;
+    color: white;
+    height: 55px;
+}
+
+.inputebotao1{
+    margin-top: 20px;
+
+}
+.numbers{
+    display: flex;
+    
+}
+.s3{
+    align-content: center;
+}
