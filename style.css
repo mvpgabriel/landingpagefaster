@@ -24,18 +24,18 @@
     background-color: transparent;
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: black;
-
+    height: 10vh;
+    width: 6vw;
 
 }
 
 .home:hover{
     background-color: orangered;
     color: white;
-    height: 14vh;
-    width: 14vh;
+
 }
 .b1{
     color:white;
@@ -51,6 +51,8 @@
     text-align: center;
     background-image: url("02.08.2024_-_Cerimônia_de_assinatura_da_Medida_Provisória_que_institui_o_Programa_Mover\,_dos_Projetos_de_Lei_nº_858_2024_e_nº_2308_2023_\(53897924860\).jpg");
     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%vh;
     height: 100vh;
 }
