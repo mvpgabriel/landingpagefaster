@@ -95,3 +95,134 @@
 .s3{
     align-content: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#cards-title{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#cards-title h3 {
+    font-size: 14px;
+    color: orangered;
+    font-weight: bolder;
+}
+
+#latest-blog {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    height: 150vh;
+    margin-top: 5vh;
+
+}
+.container-image img{
+    width: 33vw;
+    height: 50vh;
+}
+.card{
+    width: 33vw;
+    height: 100vh;
+    background-color: #f2f2f4;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+}
+.profile-container img {
+    width: 4vw;
+    height: 8vh;
+    border-radius:50%;
+    margin-right: 1vw;
+}
+.contact-profile-container {
+    display: flex;
+
+}
+.web-design {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+.web-design i{
+    margin-right: 1vw;
+}
+
+.fa-solid {
+    color: orangered;
+}
+.calendar{
+    background-color: orangered;
+    width: 5vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -6vh;
+    left: 41vw;
+}
+
+.calendar1{
+    background-color: orangered;
+    width: 5vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -6vh;
+    left: 77vw;
+}
+.calendar span{
+    color: #302129;
+    font-size: 20px;
+    font-weight: bold;
+}
+.calendar p{
+    margin-top: -10px;
+    color: white;
+}
+.calendar1 span{
+    color: #302129;
+    font-size: 20px;
+    font-weight: bold;
+}
+.calendar1 p{
+    margin-top: -10px;
+    color: white;
+}
+.web-design i {
+    color: orangered;
+}
+.text-container h1{
+    margin-left: 1.5vw;
+    font-size: 20px;
+    margin-top: 1vw;
+}
+
+.text-container p {
+    text-align: justify;
+    margin-left: 1.5vw;
+    font-size: 12px;
+    margin-right: 1.5vw;
+    margin-bottom: 3vh;
+}
+.text-container a {
+    margin-left: 1.5vw;
+    color: orangered;
+}
